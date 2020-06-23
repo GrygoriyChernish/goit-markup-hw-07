@@ -1,0 +1,22 @@
+.regularCustomersList {
+  display: flex;
+  justify-content: space-between;
+  @extend %list;
+}
+
+.regularCustomersList__link {
+  @include centeredFlex();
+  width: 175px;
+  height: 90px;
+
+  fill: $iconAndBorderColor;
+  border: 1px solid $iconAndBorderColor;
+  border-radius: 4px;
+  transition: border 250ms $cubic, fill 250ms $cubic;
+
+  &:hover,
+  &:focus {
+    border-color: $accentColor;
+    fill: $accentColor;
+  }
+}

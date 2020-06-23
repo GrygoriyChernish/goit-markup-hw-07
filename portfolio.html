@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Header -->
@@ -60,7 +60,7 @@
       <section class="section">
         <div class="container">
           <h1 class="section__title visuallyHidden">Portfolio</h1>
-          <ul class="filter list">
+          <ul class="filter">
             <li class="filter__item">
               <button type="button" class="filter__button">Все</button>
             </li>
@@ -77,10 +77,10 @@
               <button type="button" class="filter__button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="cardSet list">
+          <ul class="cardSet">
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link">
+                <a href="" class="card__link">
                   <div class="card__thumb">
                     <img
                       src="./images/portfolio-images/tehnokriak.jpg"
@@ -104,7 +104,7 @@
             </li>
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link"
+                <a href="" class="card__link"
                   ><div class="card__thumb">
                     <img
                       src="./images/portfolio-images/new-orlean-vs-golden-star.jpg"
@@ -128,7 +128,7 @@
             </li>
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link"
+                <a href="" class="card__link"
                   ><div class="card__thumb">
                     <img
                       src="./images/portfolio-images/restoran-seafood.jpg"
@@ -152,7 +152,7 @@
             </li>
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link"
+                <a href="" class="card__link"
                   ><div class="card__thumb">
                     <img
                       src="./images/portfolio-images/proekt-prime.jpg"
@@ -176,7 +176,7 @@
             </li>
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link"
+                <a href="" class="card__link"
                   ><div class="card__thumb">
                     <img
                       src="./images/portfolio-images/proekt-boxes.jpg"
@@ -200,7 +200,7 @@
             </li>
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link"
+                <a href="" class="card__link"
                   ><div class="card__thumb">
                     <img
                       src="./images/portfolio-images/inspiration-has-no-borders.jpg"
@@ -224,7 +224,7 @@
             </li>
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link"
+                <a href="" class="card__link"
                   ><div class="card__thumb">
                     <img
                       src="./images/portfolio-images/limited-edition.jpg"
@@ -248,7 +248,7 @@
             </li>
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link"
+                <a href="" class="card__link"
                   ><div class="card__thumb">
                     <img
                       src="./images/portfolio-images/proekt-lab.jpg"
@@ -272,7 +272,7 @@
             </li>
             <li class="cardSet__item">
               <article class="card">
-                <a href="" class="card__link link"
+                <a href="" class="card__link"
                   ><div class="card__thumb">
                     <img
                       src="./images/portfolio-images/growing-business.jpg"
@@ -301,7 +301,7 @@
     <footer class="pageFooter">
       <div class="pageFooter__container">
         <div>
-          <a href="./index.html" class="logo logo--inverce link">
+          <a href="./index.html" class="logo logo--inverce">
             <span class="logo__accent">Web</span>
             Studio
           </a>
@@ -314,8 +314,8 @@
           </address>
         </div>
         <div>
-          <b class="whiteAccent">Присоединяйтесь</b>
-          <ul class="socialNetwork list">
+          <b class="socialNetwork__title">Присоединяйтесь</b>
+          <ul class="socialNetwork">
             <li class="socialNetwork__item">
               <a href="https://www.instagram.com/?hl=ru" class="socialNetwork__link socialNetwork__link--changeColor">
                 <svg width="20" height="20">
@@ -347,14 +347,14 @@
           </ul>
         </div>
         <div>
-          <form class="form">
+          <form class="subscription">
             <label>
-              <span class="form__title whiteAccent">Подпишитесь на рассылку</span>
-              <input type="email" name="email" class="form__input" placeholder="E-mail" required />
+              <span class="subscription__title">Подпишитесь на рассылку</span>
+              <input type="email" name="email" class="subscription__input" placeholder="E-mail" required />
             </label>
             <button type="submit" class="button">
               Подписаться
-              <svg width="24" height="24" class="button__icon">
+              <svg width="24" height="24" class="subscription__icon">
                 <use href="./images/sprite.svg#icon-send"></use>
               </svg>
             </button>

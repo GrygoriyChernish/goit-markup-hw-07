@@ -1,0 +1,22 @@
+.section {
+  @extend %section;
+
+  &--border {
+    border-top: 1px solid #ececec;
+  }
+
+  &--grey {
+    background-color: $secondaryBackgroundColor;
+  }
+}
+
+
+.section__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}

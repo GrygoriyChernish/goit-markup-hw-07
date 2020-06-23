@@ -1,0 +1,7 @@
+.container {
+  @extend %container;
+}
+
+.visuallyHidden {
+  @extend %visuallyHidden;
+}

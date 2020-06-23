@@ -12,33 +12,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="pageHeader">
       <!-- Навигация -->
-      <div class="pageHeader__row container">
+      <div class="pageHeader__row">
         <nav class="mainNav">
-          <a href="./index.html" class="logo link">
+          <a href="./index.html" class="logo">
             <span class="logo__accent">Web</span>
             Studio
           </a>
-          <ul class="mainNav__list list">
+          <ul class="mainNav__list">
             <li class="mainNav__item">
-              <a href="./index.html" class="mainNav__link mainNav__link--current link">Студия</a>
+              <a href="./index.html" class="mainNav__link mainNav__link--current">Студия</a>
             </li>
             <li class="mainNav__item">
-              <a href="./portfolio.html" class="mainNav__link link">Портфолио</a>
+              <a href="./portfolio.html" class="mainNav__link">Портфолио</a>
             </li>
             <li class="mainNav__item">
-              <a href="" class="mainNav__link link">Контакты</a>
+              <a href="" class="mainNav__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="authNav list">
+        <ul class="authNav">
           <li class="authNav__item">
-            <a href="mailto:info@devstudio.com" class="authNav__link link">
+            <a href="mailto:info@devstudio.com" class="authNav__link">
               <svg class="authNav__icon" width="16" height="11">
                 <use href="./images/sprite.svg#envelope"></use>
               </svg>
@@ -46,7 +46,7 @@
             >
           </li>
           <li class="authNav__item">
-            <a href="tel:+380961111111" class="authNav__link link">
+            <a href="tel:+380961111111" class="authNav__link">
               <svg class="authNav__icon" width="10" height="15">
                 <use href="./images/sprite.svg#smartphone"></use>
               </svg>
@@ -71,7 +71,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section__title visuallyHidden">Преимущества</h2>
-          <ul class="featuresList list">
+          <ul class="featuresList">
             <li class="featuresList__item">
               <div class="featuresList__container">
                 <svg width="65" height="70">
@@ -123,7 +123,7 @@
       <section class="section section--border">
         <div class="container">
           <h2 class="section__title">Чем мы занимаемся</h2>
-          <ul class="worksList list">
+          <ul class="worksList">
             <li class="worksList__item">
               <img
                 src="./images/studio-images/what-are-we-doing/desktop-app.jpg"
@@ -161,7 +161,7 @@
       <section class="section section--grey">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
-          <ul class="ourTeam list">
+          <ul class="ourTeam">
             <li class="ourTeam__item">
               <img
                 src="./images/studio-images/our-team/John-Smith.jpg"
@@ -173,7 +173,7 @@
               <div class="ourTeam__meta">
                 <h3 class="ourTeam__title">Николай Кучеренко</h3>
                 <p class="ourTeam__text">Product Designer</p>
-                <ul class="socialNetwork list">
+                <ul class="socialNetwork">
                   <li class="socialNetwork__item">
                     <a href="https://www.instagram.com/?hl=ru" class="socialNetwork__link">
                       <svg width="20" height="20">
@@ -216,7 +216,7 @@
               <div class="ourTeam__meta">
                 <h3 class="ourTeam__title">Ольга Иванова</h3>
                 <p class="ourTeam__text">Frontend Developer</p>
-                <ul class="socialNetwork list">
+                <ul class="socialNetwork">
                   <li class="socialNetwork__item">
                     <a href="https://www.instagram.com/?hl=ru" class="socialNetwork__link">
                       <svg width="20" height="20">
@@ -259,7 +259,7 @@
               <div class="ourTeam__meta">
                 <h3 class="ourTeam__title">Андрей Шевченко</h3>
                 <p class="ourTeam__text">Marketing</p>
-                <ul class="socialNetwork list">
+                <ul class="socialNetwork">
                   <li class="socialNetwork__item">
                     <a href="https://www.instagram.com/?hl=ru" class="socialNetwork__link">
                       <svg width="20" height="20">
@@ -302,7 +302,7 @@
               <div class="ourTeam__meta">
                 <h3 class="ourTeam__title">Иван Николаев</h3>
                 <p class="ourTeam__text">UI Designer</p>
-                <ul class="socialNetwork list">
+                <ul class="socialNetwork">
                   <li class="socialNetwork__item">
                     <a href="https://www.instagram.com/?hl=ru" class="socialNetwork__link">
                       <svg width="20" height="20">
@@ -341,7 +341,7 @@
       <section class="section">
         <div class="container">
           <h2 class="section__title">Постоянные клиенты</h2>
-          <ul class="regularCustomersList list">
+          <ul class="regularCustomersList">
             <li class="regularCustomersList__item">
               <a href="" class="regularCustomersList__link">
                 <svg width="44.27" height="49.23" class="regularCustomersList__icon">
@@ -392,7 +392,7 @@
     <footer class="pageFooter">
       <div class="pageFooter__container">
         <div>
-          <a href="./index.html" class="logo logo--inverce link">
+          <a href="./index.html" class="logo logo--inverce">
             <span class="logo__accent">Web</span>
             Studio
           </a>
@@ -405,8 +405,8 @@
           </address>
         </div>
         <div>
-          <b class="whiteAccent">Присоединяйтесь</b>
-          <ul class="socialNetwork list">
+          <b class="socialNetwork__title">Присоединяйтесь</b>
+          <ul class="socialNetwork">
             <li class="socialNetwork__item">
               <a href="https://www.instagram.com/?hl=ru" class="socialNetwork__link socialNetwork__link--changeColor">
                 <svg width="20" height="20">
@@ -438,14 +438,14 @@
           </ul>
         </div>
         <div>
-          <form class="form">
+          <form class="subscription">
             <label>
-              <span class="form__title whiteAccent">Подпишитесь на рассылку</span>
-              <input type="email" name="email" class="form__input" placeholder="E-mail" required />
+              <span class="subscription__title">Подпишитесь на рассылку</span>
+              <input type="email" name="email" class="subscription__input" placeholder="E-mail" required />
             </label>
             <button type="submit" class="button">
               Подписаться
-              <svg width="24" height="24" class="button__icon">
+              <svg width="24" height="24" class="subscription__icon">
                 <use href="./images/sprite.svg#icon-send"></use>
               </svg>
             </button>
@@ -495,7 +495,6 @@
         </button>
       </form>
     </div>
-    <iframe src="" frameborder="0"></iframe>
     <script src="./js/modal.js"></script>
   </body>
 </html>
